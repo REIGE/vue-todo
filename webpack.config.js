@@ -75,7 +75,8 @@ if(isDev){
         overlay: {
             errors: true,
         },
-        hot: true
+        hot: true,
+        open: true
     }
     config.plugins.push(
         new webpack.HotModuleReplacementPlugin(),
